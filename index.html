@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mylena Ponomarenko — Digital Designer</title>
+  <meta name="description" content="Portfolio of Mylena Ponomarenko — digital designer working across UI/UX, game interfaces and visual design." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- column guides -->
+  <div class="guides" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="wordmark" aria-label="Home">
+        <span class="wordmark__mark">MP</span>
+        <span class="wordmark__name">Mylena Ponomarenko</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#work" class="link"><span class="mono">01</span> Work</a>
+        <a href="#about" class="link"><span class="mono">02</span> About</a>
+        <a href="#contact" class="link"><span class="mono">03</span> Contact</a>
+      </nav>
+
+      <div class="status">
+        <span class="status__dot"></span>
+        <span>Available for opportunities</span>
+      </div>
+
+      <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="container mobile-menu__links" aria-label="Mobile">
+      <a href="#work"><span class="mono">01</span>Work</a>
+      <a href="#about"><span class="mono">02</span>About</a>
+      <a href="#contact"><span class="mono">03</span>Contact</a>
+    </nav>
+    <div class="container mobile-menu__foot">
+      <div class="status"><span class="status__dot"></span><span>Available for opportunities</span></div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__meta reveal">
+          <span class="mono hero__kicker">Digital designer / UI/UX / Game UI</span>
+          <div class="mono hero__stamp">
+            <span>Edition <b>2026</b></span>
+            <span>Local time <b data-clock>--:--</b></span>
+          </div>
+        </div>
+
+        <h1 class="hero__title reveal">
+          <span class="hero__line">Designing digital</span>
+          <span class="hero__line">experiences with <span class="accent">clarity,</span></span>
+          <span class="hero__line">character</span>
+          <span class="hero__line hero__line--indent">&amp; purpose.</span>
+        </h1>
+
+        <div class="hero__bottom reveal">
+          <p class="hero__intro">I create digital interfaces, visual systems, and experiences for products and games.</p>
+          <div class="hero__ctas">
+            <a href="#work" class="btn btn--primary">Explore selected work <span class="btn__arrow">→</span></a>
+            <a href="#contact" class="btn btn--ghost">Get in touch <span class="btn__arrow btn__arrow--diag">↗</span></a>
+          </div>
+        </div>
+
+        <a href="#work" class="scroll" aria-label="Scroll to work">
+          <span class="scroll__track"><span class="scroll__thumb"></span></span>
+          <span class="mono">Scroll to explore</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section work" id="work">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="label"><span class="mono">01</span> — Work</span>
+          <h2 class="section__title">Selected work.</h2>
+          <p class="section__sub">A collection of digital products, interfaces, and visual explorations.</p>
+        </header>
+
+        <div class="works">
+          <!-- Project card — duplicate this <article> to add more -->
+          <article class="card card--wide reveal">
+            <a href="https://www.behance.net/gallery/249442429/Immersive-streetwear-blackwear-e-commerce-experience" class="card__link" target="_blank" rel="noopener" aria-label="NOCTRA — view case study on Behance (opens in a new tab)">
+              <div class="card__media ratio-3-2">
+                <img src="img/projects/noctra.jpg" alt="NOCTRA streetwear store shown on a desktop monitor and laptop" loading="lazy" />
+                <span class="card__tag mono">01</span>
+              </div>
+              <div class="card__info">
+                <div>
+                  <h3 class="card__title">NOCTRA</h3>
+                  <p class="card__desc">Dark streetwear e-commerce experience.</p>
+                </div>
+                <div class="card__meta mono">
+                  <span>UI/UX Design / E-commerce</span>
+                  <span>2025</span>
+                </div>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="card card--narrow card--offset reveal">
+            <a href="https://www.behance.net/gallery/250663133/Mobile-App-Focus-Radar" class="card__link" target="_blank" rel="noopener" aria-label="FOCUS RADAR — view case study on Behance (opens in a new tab)">
+              <div class="card__media ratio-3-4">
+                <img src="img/projects/focus-radar.jpg" alt="FOCUS RADAR app screens: map route, workspace list and focus timer" loading="lazy" />
+                <span class="card__tag mono">02</span>
+              </div>
+              <div class="card__info">
+                <div>
+                  <h3 class="card__title">FOCUS RADAR</h3>
+                  <p class="card__desc">Productivity &amp; workspace discovery app.</p>
+                </div>
+                <div class="card__meta mono">
+                  <span>Product Design / UX Concept</span>
+                  <span>2025</span>
+                </div>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="card card--narrow reveal">
+            <a href="https://www.behance.net/gallery/251212287/Dark-fantasy-game-UI-Veilwalker" class="card__link" target="_blank" rel="noopener" aria-label="VEILWALKER — view case study on Behance (opens in a new tab)">
+              <div class="card__media ratio-3-4">
+                <img src="img/projects/vealwalker.jpg" alt="VEILWALKER mobile RPG screens: hub, champion select and victory" loading="lazy" />
+                <span class="card__tag mono">03</span>
+              </div>
+              <div class="card__info">
+                <div>
+                  <h3 class="card__title">VEILWALKER</h3>
+                  <p class="card__desc">Dark fantasy RPG interface.</p>
+                </div>
+                <div class="card__meta mono">
+                  <span>Game UI / Visual Design</span>
+                  <span>2026</span>
+                </div>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="card card--wide card--offset reveal">
+            <a href="https://www.behance.net/gallery/255321401/Game-concept-UI-Signal-Zero" class="card__link" target="_blank" rel="noopener" aria-label="SIGNAL ZERO — view case study on Behance (opens in a new tab)">
+              <div class="card__media ratio-3-2">
+                <img src="img/projects/siglal-zero.jpg" alt="SIGNAL ZERO sci-fi scanner interface on a monitor and tablet" loading="lazy" />
+                <span class="card__tag mono">04</span>
+              </div>
+              <div class="card__info">
+                <div>
+                  <h3 class="card__title">SIGNAL ZERO</h3>
+                  <p class="card__desc">Sci-fi game interface &amp; HUD system.</p>
+                </div>
+                <div class="card__meta mono">
+                  <span>Game UI / Interface Design</span>
+                  <span>2026</span>
+                </div>
+                <span class="card__arrow" aria-hidden="true">↗</span>
+              </div>
+            </a>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ BEYOND DIGITAL / ART ============ -->
+    <section class="section art" id="art">
+      <div class="container">
+        <header class="art__head">
+          <span class="label reveal">Beyond digital</span>
+          <h2 class="art__title reveal">
+            <span class="muted">Some things are better</span>
+            <span>drawn by hand.</span>
+          </h2>
+          <p class="art__desc reveal">Outside of interface design, I create illustrations, explore visual ideas, and turn my imagination into artwork. A collection of personal art and hand-drawn prints.</p>
+        </header>
+
+        <!-- Artwork — swap src/alt/title to replace. Each piece keeps its own proportion. -->
+        <div class="gallery">
+          <figure class="art-piece art-piece--a reveal">
+            <a href="https://www.teepublic.com/t-shirt/73463013-japanese-geisha?store_id=3757293" class="art-piece__link" target="_blank" rel="noopener" aria-label="Red Silence — view print (opens in a new tab)">
+              <div class="art-piece__img"><img src="img/prints/pr-4.jpg" alt="Hand-drawn geisha illustration on a red brush stroke, printed on a black T-shirt" loading="lazy" /></div>
+              <figcaption><span class="art-piece__title">Red Silence <span class="art-piece__arrow" aria-hidden="true">↗</span></span><span class="mono">Ink &amp; digital colour</span></figcaption>
+            </a>
+          </figure>
+
+          <figure class="art-piece art-piece--b reveal">
+            <a href="https://www.teepublic.com/t-shirt/73255148-antique-young-man?store_id=3757293" class="art-piece__link" target="_blank" rel="noopener" aria-label="Oni Bust — view print (opens in a new tab)">
+              <div class="art-piece__img"><img src="img/prints/pr-1.jpg" alt="Hand-drawn classical bust wearing an outlined oni mask, printed on a black T-shirt" loading="lazy" /></div>
+              <figcaption><span class="art-piece__title">Oni Bust <span class="art-piece__arrow" aria-hidden="true">↗</span></span><span class="mono">Ink &amp; digital colour</span></figcaption>
+            </a>
+          </figure>
+
+          <figure class="art-piece art-piece--c reveal">
+            <a href="https://www.teepublic.com/t-shirt/74010115-medusa-head?store_id=3757293" class="art-piece__link" target="_blank" rel="noopener" aria-label="Error Medusa — view print (opens in a new tab)">
+              <div class="art-piece__img"><img src="img/prints/pr-2.jpg" alt="Hand-drawn Medusa with a pixel ERROR overlay, printed on a black T-shirt" loading="lazy" /></div>
+              <figcaption><span class="art-piece__title">Error Medusa <span class="art-piece__arrow" aria-hidden="true">↗</span></span><span class="mono">Ink &amp; digital colour</span></figcaption>
+            </a>
+          </figure>
+
+          <figure class="art-piece art-piece--d reveal">
+            <a href="https://www.teepublic.com/t-shirt/73248825-ancient-sage?store_id=3757293" class="art-piece__link" target="_blank" rel="noopener" aria-label="Drip Marble — view print (opens in a new tab)">
+              <div class="art-piece__img"><img src="img/prints/pr-3.jpg" alt="Hand-drawn bearded statue with paint drips, printed on a folded black T-shirt" loading="lazy" /></div>
+              <figcaption><span class="art-piece__title">Drip Marble <span class="art-piece__arrow" aria-hidden="true">↗</span></span><span class="mono">Ink &amp; digital colour</span></figcaption>
+            </a>
+          </figure>
+        </div>
+
+        <div class="art__cta reveal">
+          <!-- Illustration shop -->
+          <a href="https://www.teepublic.com/user/millielofi" class="art__link" target="_blank" rel="noopener">Explore all prints <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <figure class="about__visual reveal">
+          <div class="frame">
+            <img src="img/my-photo.jpg" alt="Portrait of Mylena" loading="lazy" />
+            <span class="frame__corner tl"></span><span class="frame__corner tr"></span>
+            <span class="frame__corner bl"></span><span class="frame__corner br"></span>
+          </div>
+          <figcaption class="mono"><span>Fig. 01</span><span>Self-portrait, 2026</span></figcaption>
+        </figure>
+
+        <div class="about__text">
+          <header class="reveal">
+            <span class="label"><span class="mono">02</span> — About</span>
+            <h2 class="section__title">A little about me.</h2>
+          </header>
+          <p class="lead reveal">I’m a digital designer with a background in graphic design and a growing focus on UI/UX and game interfaces. I enjoy turning ideas into thoughtful visual experiences, combining functionality, atmosphere, and detail.</p>
+          <p class="reveal">Outside of client work I draw, design prints, and build small interface experiments. I like problems where clarity and mood have to coexist — a HUD that reads in a split second, an app flow that feels calm. Lately I’ve been exploring motion, prototyping tools and new technologies that change how interfaces are made.</p>
+
+          <dl class="facts reveal">
+            <div><dt class="mono">Based in</dt><dd>Europe · Remote</dd></div>
+            <div><dt class="mono">Background</dt><dd>Graphic design</dd></div>
+            <div><dt class="mono">Currently</dt><dd>Game UI &amp; product design</dd></div>
+            <div><dt class="mono">Off-screen</dt><dd>Illustration, prints</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <!-- ============ SKILLS ============ -->
+      <div class="container skills" id="skills">
+        <div class="skills__head reveal">
+          <span class="mono skills__kicker">Capabilities / Toolkit</span>
+          <h3 class="skills__title">What I bring<br />to the table.</h3>
+        </div>
+
+        <div class="skills__col reveal">
+          <div class="skills__colhead mono"><span>01</span><span>Expertise</span></div>
+          <ul class="skills__list">
+            <li>UI/UX Design</li>
+            <li>Game UI Design</li>
+            <li>Visual Design</li>
+            <li>Graphic Design</li>
+            <li>UX Research</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+
+        <div class="skills__col reveal">
+          <div class="skills__colhead mono"><span>02</span><span>Tools</span></div>
+          <ul class="skills__list">
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>After Effects</li>
+            <li>Protopie</li>
+            <li>Procreate</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <span class="label reveal"><span class="mono">03</span> — Contact</span>
+        <h2 class="contact__title reveal">
+          <span class="muted">Have a project in mind?</span>
+          <span>Let’s make it happen.</span>
+        </h2>
+
+        <div class="contact__grid">
+          <div class="reveal">
+            <span class="mono contact__k">Email</span>
+            <a href="mailto:milena.p2k20@gmail.com" class="contact__email link">milena.p2k20@gmail.com</a>
+            <a href="mailto:milena.p2k20@gmail.com" class="btn btn--primary contact__btn">Start a conversation <span class="btn__arrow">→</span></a>
+          </div>
+
+          <ul class="socials reveal">
+            <li><a href="https://www.linkedin.com/in/mylena-ponomarenko-867993334/" target="_blank" rel="noopener"><span>LinkedIn</span><span class="mono">↗</span></a></li>
+            <li><a href="https://www.behance.net/millieP" target="_blank" rel="noopener"><span>Behance</span><span class="mono">↗</span></a></li>
+            <li><a href="https://www.instagram.com/millie_lo_fi/" target="_blank" rel="noopener"><span>Instagram</span><span class="mono">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="wordmark"><span class="wordmark__mark">MP</span><span class="wordmark__name">Mylena Ponomarenko</span></a>
+      <span class="label footer__credit"><span class="footer__mark" aria-hidden="true"></span>Designed &amp; built by me</span>
+      <div class="footer__end">
+        <span class="mono">© <span data-year>2026</span></span>
+        <a href="#top" class="link mono">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
